@@ -9,7 +9,7 @@
 function adicionarFilme() {
     const filmeFavorito = document.getElementById("filme").value;
 
-    if (filmeFavorito.endsWith(".jpg")) {
+    if (filmeFavorito) {
         listarFilmes(filmeFavorito)
     } else {
         console.error("endereço de filme inválido");
@@ -23,3 +23,8 @@ function listarFilmes(filme) {
     listaFilmes.innerHTML =
         listaFilmes.innerHTML + elementoFilmeFavorito;
 }
+
+// endsWith() - função para dizer o que tem que ter no final de tal texto/link -- imagem.jpg
+
+//
+//.endsWith(".jpg")
