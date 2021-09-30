@@ -39,8 +39,8 @@ function exibirJogadores(jogadores){
     elemento += "<td>" + jogadores[i].derrotas + "</td>";
     elemento += "<td>" + jogadores[i].pontos + "</td>";
     elemento +=  " <td><button onClick='adicionarVitoria("+ i +")'>Vitória</button></td>";
-    elemento +=   " <td><button onClick='adicionarEmpate()'>Empate</button></td>";
-    elemento +=    "<td><button onClick='adicionarDerrota()'>Derrota</button></td>";
+    elemento +=   " <td><button onClick='adicionarEmpate("+ i + ")'>Empate</button></td>";
+    elemento +=    "<td><button onClick='adicionarDerrota("+ i +")'>Derrota</button></td>";
     elemento += "</tr>";
     }
 
@@ -54,5 +54,18 @@ function adicionarVitoria(i) {
     const jogador = jogadores[i]
     jogador.vitorias++
     jogador.pontos = calcularPontos(jogador);
+    exibirJogadores(jogadores)
+}
+
+function adicionarEmpate(i) {
+    const jogador = jogadores[i]
+    jogador.empates++
+    jogador.pontos = calcularPontos(jogador);
+    exibirJogadores(jogadores)
+}
+
+function adicionarDerrota(i) {
+    const jogador = jogadores[i]
+    jogador.derrotas++
     exibirJogadores(jogadores)
 }
