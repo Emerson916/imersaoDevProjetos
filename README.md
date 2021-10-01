@@ -22,6 +22,8 @@ O Mentalista: <a href="https://emerson916.github.io/imersaoDevProjetos/mentalist
 
 AluraFlix : <a href="https://emerson916.github.io/imersaoDevProjetos/aluraFlix/aluraFlix.html"> Visitar Projeto </a>
 
+Super Trunfo : <a href="https://emerson916.github.io/imersaoDevProjetos/superTrunfo/trunfo.html"> Visitar Projeto </a>
+
 
 
 
