@@ -137,20 +137,34 @@ body {
 
 .btnCodigo{
     height: 25px;
-    border: 0px solid #333439;
+    border: 1px solid #3468A7;
     border-radius: 10px 0px 0px 10px;
     color: #ecf4ff;
     margin-left: 2.5px;
     background: #3468A7;
 }
 
+.btnCodigo:hover{
+    color: #3468A7;
+    background: #ecf4ff;
+    border: 1px solid #3468A7;
+    transition: 1s;
+}
+
 .btnProjeto{
     height: 25px;
-    border: 0px solid #333439;
+    border: 1px solid #34a73a;
     border-radius: 0px 10px 10px 0px;
     color: #ecf4ff;
     margin-right: 2.5px;
     background: #34a73a;
+}
+
+.btnProjeto:hover{
+    color: #34a73a;
+    background: #ecf4ff;
+    border: 1px solid #34a73a;
+    transition: 1s;
 }
 
 /***** Modo dark *****/
