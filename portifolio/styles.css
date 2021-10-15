@@ -3,7 +3,7 @@
 
 body {
     background: linear-gradient(236.86deg, #041832 27.26%, #3468A7 96.83%);
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Roboto', sans-serif ; 
 }
 
 .container{
@@ -132,7 +132,14 @@ body {
     color: #ecf4ff;
     font-size: 12px;
     text-align: center;
-    line-height: 20px;  
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:link, :visited{
+    text-decoration: none;
+    color: #fff;
 }
 
 .btnCodigo{
@@ -142,6 +149,11 @@ body {
     color: #ecf4ff;
     margin-left: 2.5px;
     background: #3468A7;
+}
+
+.btnCodigo a:hover{
+    color: #3468A7;
+    transition: 1s;
 }
 
 .btnCodigo:hover{
@@ -158,7 +170,14 @@ body {
     color: #ecf4ff;
     margin-right: 2.5px;
     background: #34a73a;
+    
 }
+
+.btnProjeto a:hover{
+    color: #34a73a;
+    transition: 1s;
+}
+
 
 .btnProjeto:hover{
     color: #34a73a;
