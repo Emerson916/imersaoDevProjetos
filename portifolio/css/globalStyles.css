@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #375b86;
+    --color-text: #1c1c1c;
+    --color-blck-light: #333439;
+    --color-background: #ecf4ff;
+
+    --button-blue: #3468A7;
+    --button-green: #34a73a;
+
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.86deg, #041832 27.26%, #3468A7 96.83%);
+    font-family: 'Roboto', sans-serif ; 
+}
+
+

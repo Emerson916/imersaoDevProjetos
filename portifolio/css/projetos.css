@@ -1,0 +1,103 @@
+.projetos{
+    text-align: center;
+    /*background: linear-gradient(236.86deg, #041832 27.26%, var(--button-blue) 96.83%);*/
+    background:var(--color-background) ;
+    margin: 32px 64px 0px 64px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    
+}
+
+.projetos-titulos {
+    list-style: none;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.projeto-item{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.container-projeto {
+    width: 230px;
+    height: 250px;
+    background: var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    text-align: center;
+}
+
+.container-projeto:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.titulo-projeto{
+    height: 30px;
+    color: var(--color-background);
+    font-weight: 400;  
+}
+
+.descricao-projeto{
+    height: 120px;
+    color: var(--color-background);
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:link, :visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnCodigo{
+    height: 25px;
+    border: 1px solid var(--button-blue);
+    border-radius: 10px 0px 0px 10px;
+    color: var(--color-background);
+    margin-left: 2.5px;
+    background: var(--button-blue);
+}
+
+.btnCodigo a:hover{
+    color: var(--button-blue);
+    transition: 1s;
+}
+
+.btnCodigo:hover{
+    color: var(--button-blue);
+    background: var(--color-background);
+    border: 1px solid var(--button-blue);
+    transition: 1s;
+}
+
+.btnProjeto{
+    height: 25px;
+    border: 1px solid var(--button-green);
+    border-radius: 0px 10px 10px 0px;
+    color: var(--color-background);
+    margin-right: 2.5px;
+    background: var(--button-green);
+    
+}
+
+.btnProjeto a:hover{
+    color: var(--button-green);
+    transition: 1s;
+}
+
+
+.btnProjeto:hover{
+    color: var(--button-green);
+    background: var(--color-background);
+    border: 1px solid var(--button-green);
+    transition: 1s;
+}

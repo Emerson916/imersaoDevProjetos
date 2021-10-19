@@ -1,0 +1,42 @@
+/***** Modo dark *****/
+
+.dark{
+    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container{
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos {
+    color: #fff;
+    background: #333439;
+}
+
+.dark .tema button{
+    background: #333439;
+    color: #fff;
+    border: 1px solid #f7f7f7;
+}
+
+.dark .tema button:hover{
+    transition: 1s;
+    background: #f7f7f7;
+    color: #333439;
+}
+
+.dark .container-projeto {
+    background: #f7f7f7;
+    color: #333439;
+}
+
+.dark .titulo-projeto{
+    color: #333439;
+}
+
+.dark .descricao-projeto{
+    color: #333439;
+}
+
+
