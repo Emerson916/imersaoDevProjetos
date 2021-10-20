@@ -1,7 +1,7 @@
 /***** Modo dark *****/
 
 .dark{
-    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+    background: linear-gradient(236.85deg, #375b86 27.26%, var(--primary-color-dark) 96.03%);
 }
 
 .dark .container{
@@ -27,16 +27,16 @@
 }
 
 .dark .container-projeto {
-    background: #f7f7f7;
-    color: #333439;
+    background: var(--primary-color-dark);
+    color: var(--color-text-light);
 }
 
 .dark .titulo-projeto{
-    color: #333439;
+    color: var(--color-text-light);
 }
 
 .dark .descricao-projeto{
-    color: #333439;
+    color: var(--color-text-light);
 }
 
 
