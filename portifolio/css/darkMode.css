@@ -39,4 +39,6 @@
     color: var(--color-text-light);
 }
 
-
+.dark .back{
+    background: var(--primary-color-dark);
+}

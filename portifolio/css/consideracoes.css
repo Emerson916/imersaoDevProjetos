@@ -1,0 +1,32 @@
+.consideracoes{
+    text-align: center;
+    background:var(--color-background) ;
+    margin: 32px 64px 0px 64px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px; 
+}
+
+#hello{
+    font-size: 32px;
+    text-align: center;
+}
+
+#msg{
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    opacity: 0.6;
+}
+
+#emailContato{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 90px;
+    background: var(--color-background-dark);
+    opacity: 0.9;
+}

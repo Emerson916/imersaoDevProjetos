@@ -48,7 +48,9 @@
 }
 
 .descricaoStyles{
+    width: 210px;
     height: 150px;
+    margin-left: 10px;
 }
 
 .imagens{
