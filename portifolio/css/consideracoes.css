@@ -21,7 +21,7 @@
 
 #emailContato{
     width: 250px;
-    height: 40px;
+    height: 35px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -29,4 +29,13 @@
     border-radius: 90px;
     background: var(--color-background-dark);
     opacity: 0.9;
+    cursor: pointer;
+
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    
+    
 }
