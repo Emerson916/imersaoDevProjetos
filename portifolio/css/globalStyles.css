@@ -21,6 +21,8 @@
 body {
     background: linear-gradient(236.86deg, #041832 27.26%, var(--primary-color) 96.83%);
     font-family: 'Roboto', sans-serif ; 
+    user-select: none;
 }
+
 
 

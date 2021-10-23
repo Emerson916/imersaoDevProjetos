@@ -15,7 +15,6 @@
 #msg{
     text-align: center;
     font-size: 16px;
-    font-family: cursive;
     opacity: 0.6;
 }
 
@@ -27,15 +26,42 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 90px;
-    background: var(--color-background-dark);
-    opacity: 0.9;
+    background: #c2c2c2;
+    
     cursor: pointer;
-
 }
 
 .icon{
+    padding-left: 10px;
+    padding-right: 5px;
     width: 20px;
     height: 20px;
-    
-    
+}
+
+#btnContatos{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    text-align: center;
+    background: var(--primary-color);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.btns:hover{
+    opacity: 1.0;
 }

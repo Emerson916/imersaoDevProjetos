@@ -42,3 +42,14 @@
 .dark .back{
     background: var(--primary-color-dark);
 }
+
+.dark .consideracoes{
+    background:var(--color-background-dark);
+    color: var(--color-text-light);
+}
+
+.dark .btns{
+    background: var(--primary-color-dark);
+}
+
+
