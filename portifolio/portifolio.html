@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="sortcut icon" href="https://github.com/Emerson916.png" type="image/png"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="sortcut icon" href="../portifolio/img/perfilImage.png" type="image/png"/>
     <link rel="stylesheet" href="css/globalStyles.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/darkMode.css" />
@@ -18,8 +19,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="cabeçalho">
+    <div class="container" data-aos="fade-left">
+        <header class="cabeçalho" >
             <div class="perfil">
                 <img src="https://github.com/Emerson916.png" class="perfil-foto" alt="imagemPerfilGit.png" />
                 <div class="titulo">
@@ -40,7 +41,7 @@
             </div>
         </header>
     </div>
-    <main class="projetos">
+    <main class="projetos" data-aos="fade-up">
         <h2>Projetos</h2>
         <ul class="projetos-titulos ">
             <li class="projeto-item">
@@ -132,7 +133,7 @@
             </li>
         </ul>
     </main>
-    <main class="projetos">
+    <main class="projetos" data-aos="fade-bottom">
         <h2>Conhecimentos</h2>
         <ul>
             <li class="flip-container">
@@ -236,7 +237,7 @@
         </ul>
     </main>
 
-    <footer class="consideracoes">
+    <footer class="consideracoes" data-aos="fade-right">
         <h2 id="hello">! Hellow World 🌎! </h2>
 
         <p id="msg">Entre em contato comigo, tanto para sanar alguma dúvida quanto para me dar alguma dica, não
@@ -259,6 +260,11 @@
     </footer>
 
     <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 
 </html>

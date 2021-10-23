@@ -24,5 +24,22 @@ body {
     user-select: none;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+                  
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--color-text-dark);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:var(--color-background);   
+    border-radius: 90px;     
+    border: 2px solid var(--color-background-dark) ; 
+  }
+
+
+
 
 
