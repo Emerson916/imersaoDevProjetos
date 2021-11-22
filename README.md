@@ -12,7 +12,7 @@ Os projetos foram feitos na segunda ImersãoDev da <a href="https://www.alura.co
 ![](https://img.shields.io/badge/‎-VS%20Code-140de0?logo=visual-studio-code&logoColor=white&style=plastic)
 
 
-## Teste meus projetos, acessando o link abaixo :
+## Teste os projetos, acessando algum dos links abaixo :
 
 Calculadora de Média: <a href="https://emerson916.github.io/imersaoDevProjetos/calculadoraMedia/calculadoraMedia.html"> Visitar Projeto </a>
 
