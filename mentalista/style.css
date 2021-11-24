@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto Mono", monospace;
     min-height: 600px;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
+    /* background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png"); */
+    background: linear-gradient(236.86deg, #113204 20.00%, #161868 91.00%);
     background-color: #000000;
     background-size: cover;
     background-position: center bottom;
@@ -45,6 +46,9 @@ body {
     margin: 4px;
     padding: 6px;
     border-radius: 5px;
+    border: none;
+    border: solid 2px #262626;
+    text-align: center;
   }
   
   button {
@@ -59,8 +63,20 @@ body {
 
   .btnChutar {
     border: solid 2px green;
-    background: rgb(123, 214, 123);
+    background-color: rgb(123, 214, 123);
   }
+
+  .btnReset{
+    border:solid 2px blue;
+    background-color: cornflowerblue;
+  }
+
+  button:disabled {
+    opacity: 0.9;  
+    background-color: rgba(65, 105, 225, 0.438);
+
+  }
+
 
   .resultado {
     color: #ffffff;
