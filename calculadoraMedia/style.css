@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto Mono',monospace;
     min-height: 400px;
-    background-image: url('https://image.flaticon.com/icons/png/512/201/201635.png');
-    background-color: #000000;
+    /* background-image: url('https://image.flaticon.com/icons/png/512/201/201635.png'); */
+    
     background-size: 80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
+   
   }
   
   .container {
@@ -15,16 +16,16 @@ body {
   }
   
   .page-title {
-    color:#ffffff;
+    
     margin: 0 0 5px;
   }
   
   .page-subtitle {
-    color:#ffffff;
+    
     margin-top: 5px;
   }
   
-  .page-logo {
+  /* .page-logo {
     width: 200px;
   }
   
@@ -33,4 +34,23 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
+  } */
+
+  .form-notas{
+    width: 230px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .input-notas{
+    width: 150px;
+    height: 30px;
+    margin: 5px;
   }
