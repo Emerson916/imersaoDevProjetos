@@ -2,18 +2,18 @@
 
 const nome1 = {
     nome:"Emerson",
-    vitorias: 2,
-    empates: 1,
-    derrotas: 1,
-    pontos: 10
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
+    pontos: 0
 }
 
 const nome2 = {
     nome:"Clebinho",
-    vitorias: 2,
-    empates: 1,
-    derrotas: 1,
-    pontos: 10
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
+    pontos: 0
 }
 
 function calcularPontos(jogador){
