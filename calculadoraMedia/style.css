@@ -3,10 +3,33 @@ body {
     min-height: 400px;
     /* background-image: url('https://image.flaticon.com/icons/png/512/201/201635.png'); */
     
-    background-size: 80vh;
+    /* background-size: 80vh;
     background-position: center bottom;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    animation-name: mudarCor;
+    animation-delay: initial;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition: 1s;
+    color: #fff;
+  }
+
+  @keyframes mudarCor {
+    0% {
+      background: linear-gradient(236.86deg, #051c3a 27.26%, #0370ff 96.83%);
+      
+    }
+    
+    50%{
+      background: linear-gradient(236.86deg, #0370ff 27.26%, #051c3a 96.83%);
+      
+    }
    
+    100%{
+      background: linear-gradient(236.86deg, #051c3a 27.26%, #0370ff 96.83%);
+      
+    }
   }
   
   .container {
@@ -37,20 +60,57 @@ body {
   } */
 
   .form-notas{
-    width: 230px;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 280px;
+    margin: 100px auto;
     align-items: center;
     justify-content: center;
-    border: 2px solid #000;
+    
     display: flex;
     justify-content: space-between;
-    
+
   }
 
-  .input-notas{
+  input{
     width: 150px;
     height: 30px;
     margin: 5px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    text-align: center;
+  }
+
+  button{
+    
+    width: 110px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(26, 255, 26);
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: rgb(26, 255, 26);
+    border: 2px solid #fff;
+    transition: 1s;
+  }
+
+  .btnAddNota{
+    border: 2px solid rgb(253, 228, 2);
+  }
+
+  .btnAddNota:hover{
+    background-color: rgb(253, 228, 2);
+    border: 2px solid #fff;
+  }
+
+  .btnReset{
+    width: 238px;
+    border: 2px solid rgb(83, 3, 99);
+  }
+
+  .btnReset:hover{
+    background-color: rgb(83, 3, 99);
+    border: 2px solid #fff;
+    color: #fff;
   }
