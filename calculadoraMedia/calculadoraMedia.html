@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sortcut icon" href="img/calculo.png" type="icon/png"/>
     <link rel="stylesheet" href="style.css"/>
     <title> Calculadora de Média</title>
 </head>
@@ -17,18 +18,17 @@
         </p>
 
             <div class="container-inputs">
-                <input type="number" id="nota1" min="0"  placeholder="Digite a nota 1" />
-                <input type="number" id="nota2" min="0"  placeholder="Digite a nota 2"/>
-                <input type="number" id="nota3" min="0"  placeholder="Digite a nota 3"/>
-                <input type="number" id="nota4" min="0"  placeholder="Digite a nota 4"/>
+                <input type="number" id="nota1" min="0" max="10"  placeholder="Digite a nota 1" />
+                <input type="number" id="nota2" min="0" max="10"  placeholder="Digite a nota 2"/>
+                <input type="number" id="nota3" min="0" max="10"  placeholder="Digite a nota 3"/>
+                <input type="number" id="nota4" min="0" max="10"  placeholder="Digite a nota 4"/>
             </div>
        
-        
             <p>O que deseja fazer ?</p>
             <button type="submit" class="btnCalcular" onclick="Calcular()">Calcular</button>
-            <button class="btnReset">Novo Calculo</button>
+            <button class="btnReset" onclick="Reset()">Novo Calculo</button>
             <h2 class="resultado" id="resultado"></h2>
     </div>
-    <script defer src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
