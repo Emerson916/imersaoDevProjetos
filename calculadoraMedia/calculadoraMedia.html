@@ -13,32 +13,22 @@
     <div class="container">
         <h1 class="page-title">Calculadora de média</h1>
         <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
+            Descubra qual a sua média de notas e veja se passou de serie!
         </p>
 
-        <div class="form-notas">
-        <form >
-            <input type="text" placeholder="Digite a nota"/>
-            <input type="text" placeholder="Digite a nota"/>
-            <input type="text" placeholder="Digite a nota"/>
-            <input type="text" placeholder="Digite a nota"/>
-
+            <div class="container-inputs">
+                <input type="number" id="nota1" min="0"  placeholder="Digite a nota 1" />
+                <input type="number" id="nota2" min="0"  placeholder="Digite a nota 2"/>
+                <input type="number" id="nota3" min="0"  placeholder="Digite a nota 3"/>
+                <input type="number" id="nota4" min="0"  placeholder="Digite a nota 4"/>
+            </div>
+       
+        
             <p>O que deseja fazer ?</p>
-            <button class="btnCalcular">Calcular</button>
-            <button class="btnAddNota">Adicionar Nota</button>
-            <button class="btnReset">Calcular Novas Notas</button>
+            <button type="submit" class="btnCalcular" onclick="Calcular()">Calcular</button>
+            <button class="btnReset">Novo Calculo</button>
             <h2 class="resultado" id="resultado"></h2>
-
-        </form>
-        </div>
-        <!-- <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
-            class="page-logo" alt=""> -->
     </div>
-    <!-- <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a> -->
-
-    
+    <script defer src="main.js"></script>
 </body>
-    <script src="main.js"></script>
 </html>
