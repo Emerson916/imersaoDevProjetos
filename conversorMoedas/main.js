@@ -1,20 +1,34 @@
 function Converter(){
-    const valorElemento = document.getElementById("valor");
-    const valor = valorElemento.value;
-    const valorDolar = parseFloat(valor);
+    var selectedValue = document.getElementById("moeda").value;
+    const valorElemento = document.getElementById("valor").value;
+   
+    console.log(selectedValue);
 
-    const valorEmReal = valorDolar * 5.60;
+    const valorMoeda = parseFloat(valorElemento);
+    var valorSelect = parseFloat(selectedValue);
 
-    const valorEmRealCurto = valorEmReal.toFixed(2);
-
-    //pega um elemento "id" do HTML
+     //pega um elemento "id" do HTML
     const elementoConvertido = document.getElementById("valorConvertido");
 
-    const valorConvertido = "O resultado em real é R$" + valorEmRealCurto;
 
+    if(valorSelect == 0){
+        const valorNulo = "Escolha uma moeda para converter!!"
+        elementoConvertido.innerHTML = valorNulo;
+    }else 
+    
+    if(valorMoeda == 0){
+        const moedaNulo = "Você precisa adicionar um valor";
+        elementoConvertido.innerHTML = moedaNulo;
+    }else{
+
+        const valorEmReal = valorMoeda * valorSelect;
+        const valorEmRealCurto = valorEmReal.toFixed(2);
+
+        const valorConvertido = "O resultado em real é R$" + valorEmRealCurto;
+    
    
-
-    //pega um elemento do HTML e joga na tela a váriavel "valorConvertido"
-    elementoConvertido.innerHTML = valorConvertido;
+        //pega um elemento do HTML e joga na tela a váriavel "valorConvertido"
+        elementoConvertido.innerHTML = valorConvertido;
+    }   
 }
 
