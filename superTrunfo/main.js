@@ -55,8 +55,6 @@ const baralho = [carta1, carta2, carta3,carta4, carta5];
 var cartaMaquina = 0;
 var cartaJogador = 0;
 
-
-
 function sortearCarta() {
     var numeroCartaMaquina = parseInt(Math.random() * 5)
     cartaMaquina = baralho[numeroCartaMaquina];
@@ -148,5 +146,11 @@ function exibirCartaMaquina() {
     const nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`;
 
     divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTextos + "</div>"
+
+    document.getElementById("btnRecarregar").disabled = false;
 }
  
+
+function Reset(){
+    window.location.reload();
+}
